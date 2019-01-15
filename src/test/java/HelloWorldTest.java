@@ -50,7 +50,7 @@ public class HelloWorldTest {
 
     @Test(expected= LanguageNotFoundException.class)
     public void constructorWithUnknownLangThrowsException () throws LanguageNotFoundException{
-        HelloWorld test1 = new HelloWorld("Dutch");
+        HelloWorld test1 = new HelloWorld("German");
         fail("constructing HelloWorld object with unknown language (Dutch) should have thrown Exception");
     }
 

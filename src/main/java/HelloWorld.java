@@ -51,6 +51,7 @@ public class HelloWorld {
         helloDictionary.put("French", "Bonjour Monde");
         helloDictionary.put("Chinese", "Ni Hao Shijie");
         helloDictionary.put("Romanian", "Salut Lume");
+        helloDictionary.put("Dutch", "Hallo Wereld");
         return helloDictionary;
     }
 
