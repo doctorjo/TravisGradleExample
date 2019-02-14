@@ -45,15 +45,13 @@ public class HelloWorld {
         return language;
     }
     // methods
-    private static HashMap<String, String> makeDict() {
+    private static void makeDict() {
         helloDictionary = new HashMap<>();
         helloDictionary.put("English", "Hello World");
         helloDictionary.put("French", "Bonjour Monde");
         helloDictionary.put("Chinese", "Ni Hao Shijie");
         helloDictionary.put("Romanian", "Salut Lume");
         //helloDictionary.put("Dutch", "Hallo Wereld");
-
-        return helloDictionary;
     }
 
     String findHello(){
